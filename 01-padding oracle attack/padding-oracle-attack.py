@@ -25,7 +25,7 @@ def _remove_padding(data):
 def encrypt(msg):
     iv = randgen.read(AES.block_size)
     cipher = AES.new(key, AES.MODE_CBC, iv)
-    return iv + cipher.encrypt(_add_padding(msg))
+    return iv + cipher.encrypt(_add_padding(msg))  # NB: iv is added as an extra block at the top!
 
 def _decrypt(data):
     iv = data[:AES.block_size]
