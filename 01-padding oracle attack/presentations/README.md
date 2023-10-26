@@ -41,3 +41,9 @@
 
 ## 08 - attack 7 (latest version)
 ![08 - attack7](08%20-%20attack7.png)
+
+## 09 - test the correctnes 1 (latest version)
+![09 - test the correctnes1](09%20-%20test%20the%20correctnes1)
+
+## 09 - test the correctnes 2 (latest version)
+![09 - test the correctnes2](09%20-%20test%20the%20correctnes2)
